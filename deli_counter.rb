@@ -6,7 +6,7 @@ def line(katz_deli)
     count = 1
     deli_line = []
     katz_deli.each do |i|
-      deli_line.push(count.to_s + ". " + i +" ")
+      deli_line.push(count.to_s + ". " + i)
       count+=1
     end
     puts "The line is currently: "+deli_line.to_s
