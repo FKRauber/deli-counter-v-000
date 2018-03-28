@@ -22,8 +22,7 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.length > 0
-    current = katz_deli.pop
-    puts "Currently serving #{current}"
+    puts "Currently serving #{katz_deli.first}"
   else
     puts "There is nobody waiting to be served!"
   end
