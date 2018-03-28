@@ -9,7 +9,7 @@ def line(katz_deli)
       deli_line.push(count.to_s + ". " + i +" ")
       count+=1
     end
-    puts "The line is currently: "+deli_line
+    puts "The line is currently: "+deli_line.to_s
   else
     puts "The line is currently empty."
   end
