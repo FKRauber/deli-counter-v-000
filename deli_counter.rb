@@ -5,7 +5,7 @@ def line(katz_deli)
   if katz_deli.length > 0
     count = 1
     katz_deli.each do |i|
-      puts "The line is currently: " + count + ". " + i
+      puts "The line is currently: " + count.to_s + ". " + i
       count+=1
     end
   else
